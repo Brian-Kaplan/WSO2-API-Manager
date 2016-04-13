@@ -6,7 +6,11 @@ Server Repo for Mobile Single Sign on Solution
 
 SDK
   - The android SDK for use with 3rd party mobile apps is included in this repo
-  - $ mvn clean install will build the src into a .jar inside the target directory
+  - build the src into a .jar from the root directory. It will be inside the target directory when finished
+  
+    ```
+    $ mvn clean install
+    ```
 
 # Documentation
 
