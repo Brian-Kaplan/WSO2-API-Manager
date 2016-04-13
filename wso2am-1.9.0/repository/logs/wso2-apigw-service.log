@@ -1,0 +1,21 @@
+2016-04-11 16:58:24,912 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2016-04-11 16:58:24,925 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2016-04-11 16:58:24,988 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2016-04-11 17:05:54,759 [-] [PassThroughMessageProcessor-3]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /phoneverify2/1.0.0/CheckPhoneNumber?PhoneNumber=7033363133&LicenseKey=0
+2016-04-11 17:06:37,540 [-] [PassThroughMessageProcessor-4]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /phoneverify2/1.0.0/CheckPhoneNumber?PhoneNumber=7033363133&LicenseKey=0
+2016-04-11 17:07:05,562 [-] [PassThroughMessageProcessor-5]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /phoneverify2/1.0.0/CheckPhoneNumber?PhoneNumber=7033363133&LicenseKey=0
+2016-04-11 17:08:19,769 [-] [PassThroughMessageProcessor-9]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /phoneverify2/1.0.0/CheckPhoneNumber?PhoneNumber=7033363133&LicenseKey=0
+2016-04-11 17:08:20,715 [-] [PassThroughMessageProcessor-10]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /phoneverify2/1.0.0/CheckPhoneNumber?PhoneNumber=7033363133&LicenseKey=0
+2016-04-11 17:36:52,847 [-] [PassThroughMessageProcessor-33]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /phoneverify2/1.0.0/CheckPhoneNumber?PhoneNumber=7033363133&LicenseKey=0
+2016-04-11 17:45:02,253 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2016-04-11 17:45:02,272 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2016-04-11 17:45:02,359 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2016-04-11 17:57:22,551 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2016-04-11 17:57:22,572 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2016-04-11 17:57:22,725 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2016-04-12 15:11:30,661 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2016-04-12 15:11:30,683 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2016-04-12 15:11:30,926 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2016-04-12 17:04:13,272 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2016-04-12 17:04:13,287 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2016-04-12 17:04:13,451 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService

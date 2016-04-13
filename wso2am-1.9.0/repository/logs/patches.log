@@ -1,0 +1,153 @@
+[2016-04-11 16:57:43,410]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Checking for patch changes ...
+[2016-04-11 16:57:43,414]  INFO {org.wso2.carbon.server.util.PatchUtils} -  New patch available - patch0001
+[2016-04-11 16:57:43,414]  INFO {org.wso2.carbon.server.util.PatchUtils} -  New patch available - patch0002
+[2016-04-11 16:57:43,414]  INFO {org.wso2.carbon.server.util.PatchUtils} -  New patch available - patch0003
+[2016-04-11 16:57:43,414]  INFO {org.wso2.carbon.server.util.PatchUtils} -  New patch available - patch0004
+[2016-04-11 16:57:43,414]  INFO {org.wso2.carbon.server.util.PatchUtils} -  New patch available - patch0005
+[2016-04-11 16:57:43,414]  INFO {org.wso2.carbon.server.util.PatchUtils} -  New patch available - patch0006
+[2016-04-11 16:57:43,414]  INFO {org.wso2.carbon.server.util.PatchUtils} -  New patch available - patch0007
+[2016-04-11 16:57:43,414]  INFO {org.wso2.carbon.server.util.PatchUtils} -  New patch available - patch0008
+[2016-04-11 16:57:43,415]  INFO {org.wso2.carbon.server.util.PatchUtils} -  New patch available - patch0009
+[2016-04-11 16:57:43,415]  INFO {org.wso2.carbon.server.util.PatchUtils} -  New patch available - patch0010
+[2016-04-11 16:57:43,415]  INFO {org.wso2.carbon.server.util.PatchUtils} -  New patch available - patch0011
+[2016-04-11 16:57:43,917]  INFO {org.wso2.carbon.server.extensions.PatchInstaller} -  Patch changes detected 
+[2016-04-11 16:57:45,736]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Backed up plugins to patch0000
+[2016-04-11 16:57:45,736]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Applying patches ...
+[2016-04-11 16:57:45,737]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Applying - patch0001
+[2016-04-11 16:57:45,839]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axiom_1.2.11.wso2v4.jar(MD5:d0b5b01650ca4faae96a54bbc733441f)
+[2016-04-11 16:57:45,844]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-transport-jms_1.1.0.wso2v9.jar(MD5:b5a82def11563b9c293474526c7f02f6)
+[2016-04-11 16:57:45,965]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2_1.6.1.wso2v10.jar(MD5:3b297ce1e609817bd52e52407867da66)
+[2016-04-11 16:57:45,971]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched httpcore_4.3.0.wso2v1.jar(MD5:4db3b86a7a814670c8b1ae9eeb27b7d4)
+[2016-04-11 16:57:45,974]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched javax.cache.wso2_4.2.0.jar(MD5:089ed7a98850aa3723207c6f3f1768d2)
+[2016-04-11 16:57:45,978]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.application.deployer_4.2.0.jar(MD5:c620fa278f44b8b338a6511824cb4d9c)
+[2016-04-11 16:57:45,982]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.core.services._4.2.0.jar(MD5:b6e7fac5646a39c464683ad84490d786)
+[2016-04-11 16:57:46,006]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.core_4.2.0.jar(MD5:a6d5cb417d9fc7ad2162b6ac2ff5ed99)
+[2016-04-11 16:57:46,020]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.registry.core_4.2.0.jar(MD5:94f2340a1e11a67d9e5d2927b1d8fbdb)
+[2016-04-11 16:57:46,025]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.server.admin_4.2.0.jar(MD5:cecd6f71ea25abd2560682523231adda)
+[2016-04-11 16:57:46,028]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.tomcat.ext_4.2.0.jar(MD5:c5e086e751732f9abeccf7c9f7bbbbbd)
+[2016-04-11 16:57:46,031]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.tomcat_4.2.0.jar(MD5:41fdaf9d98224ab34ab1982e91e184a5)
+[2016-04-11 16:57:46,039]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.user.core_4.2.0.jar(MD5:da755deac51edc3a9b06bdb67993f218)
+[2016-04-11 16:57:46,046]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.utils_4.2.0.jar(MD5:a806a9cc8d132794dfcbfbc7d743e915)
+[2016-04-11 16:57:46,094]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched spring.framework_3.1.0.wso2v1.jar(MD5:bf208e0301929bd0a6482626771bc7ae)
+[2016-04-11 16:57:46,131]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched wss4j_1.5.11.wso2v6.jar(MD5:6af11b00c0d4c20c933454cdc4346522)
+[2016-04-11 16:57:46,131]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Applying - patch0002
+[2016-04-11 16:57:46,135]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-transport-jms_1.1.0.wso2v9.jar(MD5:e278aa1875a65d68622c576a5d0b27b4)
+[2016-04-11 16:57:46,240]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2_1.6.1.wso2v10.jar(MD5:ed4438f4a21438dbfdc7a44509e6db9a)
+[2016-04-11 16:57:46,244]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.application.deployer_4.2.0.jar(MD5:3bdfd228ef139ba0d7cdac38fe417dd4)
+[2016-04-11 16:57:46,258]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.core.services_4.2.0.jar(MD5:c1c5c3b392514d50c6fecb5d7283192b)
+[2016-04-11 16:57:46,297]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.core_4.2.0.jar(MD5:c61b095a142496add085aea43547d080)
+[2016-04-11 16:57:46,302]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.utils_4.2.0.jar(MD5:a8912d38cc2bebea6861172f983702dd)
+[2016-04-11 16:57:46,332]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched wss4j_1.5.11.wso2v6.jar(MD5:edad51f64498d5a03781882fc268f8e7)
+[2016-04-11 16:57:46,332]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Applying - patch0003
+[2016-04-11 16:57:46,337]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched jdbc-pool_7.0.34.wso2v1.jar(MD5:d097808a51bd2e71217e3ac7f08b5f8e)
+[2016-04-11 16:57:46,341]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.ndatasource.core_4.2.0.jar(MD5:6b0aedfc978acc19555fc064bcb4fd3a)
+[2016-04-11 16:57:46,344]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.ndatasource.rdbms_4.2.0.jar(MD5:5383dcb8be503a28e6029d47c87fea31)
+[2016-04-11 16:57:46,352]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.user.core_4.2.0.jar(MD5:1ebac7188194807c4a78b70cc0afff23)
+[2016-04-11 16:57:46,357]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.utils_4.2.0.jar(MD5:9ffcf40459c9766c2ecc5791fa052835)
+[2016-04-11 16:57:46,419]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched poi-ooxml-3.9.0.wso2v1.jar(MD5:e9c2671429741c6ec5f71e9d2a256d15)
+[2016-04-11 16:57:46,419]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Applying - patch0004
+[2016-04-11 16:57:46,424]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.application.deployer_4.2.0.jar(MD5:9eb5941ec36256628f0f2b51bdda4e24)
+[2016-04-11 16:57:46,428]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.core.services_4.2.0.jar(MD5:ede997bffff7876c9763ed036257ecf0)
+[2016-04-11 16:57:46,451]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.core_4.2.0.jar(MD5:9995a5f3f6734f43897efbadbc72a394)
+[2016-04-11 16:57:46,488]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.ui_4.2.0.jar(MD5:c48da3458e67df3608c811a8241cfe2f)
+[2016-04-11 16:57:46,496]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.user.core_4.2.0.jar(MD5:05fc5bb622873b63c9dc01c68fbfa495)
+[2016-04-11 16:57:46,502]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.utils_4.2.0.jar(MD5:7ffda5844be79759fa20527f74f8a25b)
+[2016-04-11 16:57:46,502]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Applying - patch0005
+[2016-04-11 16:57:46,506]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-transport-jms_1.1.0.wso2v9.jar(MD5:3f7031c0564e1d1215f9eb41b2a1c229)
+[2016-04-11 16:57:46,620]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2_1.6.1.wso2v10.jar(MD5:5fce8ce95fa63673e82b317bfc7a1967)
+[2016-04-11 16:57:46,624]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.application.deployer_4.2.0.jar(MD5:662c34f6e4c90887fde2bb78fc32f0fa)
+[2016-04-11 16:57:46,648]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.core_4.2.0.jar(MD5:6212c3637595c567cbb2663527307e2c)
+[2016-04-11 16:57:46,659]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.user.core_4.2.0.jar(MD5:7b932437266e3fc6a88394a4b16a980c)
+[2016-04-11 16:57:46,664]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched XmlSchema_1.4.7.wso2v2.jar(MD5:7bdacd14b7c7aa2a07fc7ba0a5f8ab43)
+[2016-04-11 16:57:46,664]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Applying - patch0006
+[2016-04-11 16:57:46,667]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-json_1.6.1.wso2v10.jar(MD5:617f973522b047e6534a07b8c7765276)
+[2016-04-11 16:57:46,670]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-transport-rabbitmq-amqp_1.1.0.wso2v9.jar(MD5:f10ca5d4828590123ac9a60755dc85ce)
+[2016-04-11 16:57:46,817]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2_1.6.1.wso2v10.jar(MD5:39a2dd1505c28cdd7c1df82ef1ecf468)
+[2016-04-11 16:57:46,821]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched javax.cache.wso2_4.2.0.jar(MD5:de7d0abb10926325dc2a9c215071c668)
+[2016-04-11 16:57:46,825]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.application.deployer_4.2.0.jar(MD5:822a72adf8b5c05f581ce48954ceb3df)
+[2016-04-11 16:57:46,851]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.core_4.2.0.jar(MD5:9b260cdfe85f5b2daacb9985aeba5d21)
+[2016-04-11 16:57:46,853]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.user.api_4.2.0.jar(MD5:b55fc377c4c36a08c5b49811efc24161)
+[2016-04-11 16:57:46,864]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.user.core_4.2.0.jar(MD5:8538a89df182dc21119a19bcedb18f97)
+[2016-04-11 16:57:46,870]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched wsdl4j_1.6.2.wso2v4.jar(MD5:5618d7a2aa912a18e89e77f44526fff0)
+[2016-04-11 16:57:46,871]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Applying - patch0007
+[2016-04-11 16:57:46,875]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-json_1.6.1.wso2v10.jar(MD5:946b20fad83445b72df5a10149b3463d)
+[2016-04-11 16:57:47,090]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2_1.6.1.wso2v10.jar(MD5:41c900b8f4f2e6f4ec159189ac14a5b0)
+[2016-04-11 16:57:47,094]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.application.deployer_4.2.0.jar(MD5:0e9643a6c2574d7ea6e590dfe882d489)
+[2016-04-11 16:57:47,119]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.core_4.2.0.jar(MD5:bc08a6109d60a9ca8694775d61a85970)
+[2016-04-11 16:57:47,121]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.registry.server_4.2.0.jar(MD5:435f0007d0869b6a8ff764e6a9d22f2b)
+[2016-04-11 16:57:47,125]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.server.admin_4.2.0.jar(MD5:5bedc269ad2f1cf436ee803e2bc18b08)
+[2016-04-11 16:57:47,162]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.ui_4.2.0.jar(MD5:f2b6f29a3537443c49af783806081128)
+[2016-04-11 16:57:47,170]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.user.core_4.2.0.jar(MD5:01ac941b12a5357df75756ff7fa0e8f5)
+[2016-04-11 16:57:47,177]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.utils_4.2.0.jar(MD5:41b0193a87f4a0f37e19dddb54bf837e)
+[2016-04-11 16:57:47,177]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Applying - patch0008
+[2016-04-11 16:57:47,288]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2_1.6.1.wso2v10.jar(MD5:9441d60e38fa0d4576f9ba51fc362905)
+[2016-04-11 16:57:47,292]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched javax.cache.wso2_4.2.0.jar(MD5:d89e0e07893e23549c7ea3286e3459c6)
+[2016-04-11 16:57:47,304]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.registry.core_4.2.0.jar(MD5:a8ded4aa483112f580f7f0dc820484e2)
+[2016-04-11 16:57:47,306]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.securevault_4.2.0.jar(MD5:1235ff0acb798ce08d79fb2c5c409f36)
+[2016-04-11 16:57:47,315]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.user.core_4.2.0.jar(MD5:5654c5c5c68161943a1c5a5535df901f)
+[2016-04-11 16:57:47,315]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Applying - patch0009
+[2016-04-11 16:57:47,343]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axiom_1.2.11.wso2v4.jar(MD5:671bab05a557733cf2c76b637c000a11)
+[2016-04-11 16:57:47,346]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-json_1.6.1.wso2v10.jar(MD5:04a5b30ed58e27655445a0ccc4eeba9a)
+[2016-04-11 16:57:47,351]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-transport-jms_1.1.0.wso2v9.jar(MD5:60b4e12dbefcb00ad4966066d58f0adb)
+[2016-04-11 16:57:47,355]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-transport-sms_1.1.0.wso2v9.jar(MD5:92026d2541daa4466abed6d1ef2f6efc)
+[2016-04-11 16:57:47,517]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2_1.6.1.wso2v10.jar(MD5:27a84774a6397c7c4a02f56bcb31ff46)
+[2016-04-11 16:57:47,561]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched hazelcast_3.0.1.wso2v1.jar(MD5:0ab0cb6a801922c42db4f9e5daf2cda4)
+[2016-04-11 16:57:47,566]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched javax.cache.wso2_4.2.0.jar(MD5:a6ca8c9103197d46000df13ecaa5023a)
+[2016-04-11 16:57:47,570]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.application.deployer_4.2.0.jar(MD5:561eac7837e5c09739bbfe93e4636960)
+[2016-04-11 16:57:47,573]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.base_4.2.0.jar(MD5:0fccd8972c76b2d7c9f8ea395ea1f1c3)
+[2016-04-11 16:57:47,598]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.core_4.2.0.jar(MD5:aadc05607d089c711a1039cdf003e1e6)
+[2016-04-11 16:57:47,601]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.jasper.patch_4.2.0.jar(MD5:9df460d83afc4aff9eb3c2c9d6418180)
+[2016-04-11 16:57:47,618]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.registry.core_4.2.0.jar(MD5:fbaa7a18b6effc720b4d3a0dad5da1f3)
+[2016-04-11 16:57:47,620]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.registry.server_4.2.0.jar(MD5:84d995f7a19a3e093b8e200624aeb684)
+[2016-04-11 16:57:47,626]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.server.admin_4.2.0.jar(MD5:8e53c0be11d2b913934d424b921c29fd)
+[2016-04-11 16:57:47,664]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.ui_4.2.0.jar(MD5:abfdbbeafd038de11c897deffae4cdef)
+[2016-04-11 16:57:47,678]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.user.core_4.2.0.jar(MD5:85ab22bb15fffce8bcd2513ac9d18402)
+[2016-04-11 16:57:47,686]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.utils_4.2.0.jar(MD5:dc7e55901e5537770334dd2d54b56b30)
+[2016-04-11 16:57:47,796]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched poi-ooxml_3.9.0.wso2v1.jar(MD5:6c71a944091df6c4c446e8ddcd528344)
+[2016-04-11 16:57:47,875]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched spring.framework_3.1.0.wso2v1.jar(MD5:1f4be17ba02efe47de74c7c5e1dbe749)
+[2016-04-11 16:57:47,876]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Applying - patch0010
+[2016-04-11 16:57:47,910]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axiom_1.2.11.wso2v4.jar(MD5:ed11e9b72e3033cc6c3119aaa2500abe)
+[2016-04-11 16:57:47,915]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-json_1.6.1.wso2v10.jar(MD5:1e2f8e8cbaa5e6e406f3f686ec6cecd2)
+[2016-04-11 16:57:47,922]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-transport-jms_1.1.0.wso2v9.jar(MD5:dd54dbb6675fed40e84c9bdbb02a9ed5)
+[2016-04-11 16:57:48,110]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2_1.6.1.wso2v10.jar(MD5:78a7cddca685695a5117de16947eed03)
+[2016-04-11 16:57:48,177]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched hazelcast_3.0.1.wso2v1.jar(MD5:6ce19b6d8fe73913f9a45a6f44442535)
+[2016-04-11 16:57:48,181]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched javax.cache.wso2_4.2.0.jar(MD5:c11dfaa5a01b368b9cc0f56b4388969f)
+[2016-04-11 16:57:48,188]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.core.services_4.2.0.jar(MD5:7c842658c29b3cce8a2ee41e2b7834c4)
+[2016-04-11 16:57:48,221]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.core_4.2.0.jar(MD5:57d5be63df7486b7ee7f77f236c2d05a)
+[2016-04-11 16:57:48,225]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.feature.mgt.services_4.2.0.jar(MD5:85a207fb80fb51b839e745a924930b5d)
+[2016-04-11 16:57:48,227]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.ndatasource.rdbms_4.2.0.jar(MD5:acbe7b3648d7389ee436387e3fef035e)
+[2016-04-11 16:57:48,252]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.registry.core_4.2.0.jar(MD5:418f2b0ed06ce3caefdef498d3b00dce)
+[2016-04-11 16:57:48,256]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.tomcat.ext_4.2.0.jar(MD5:6b9b148890919d139bd9c5dc2fdbe3e1)
+[2016-04-11 16:57:48,259]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.tomcat.patch_4.2.0.jar(MD5:63c4eab75a6a2502404acc66c3020510)
+[2016-04-11 16:57:48,322]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.ui_4.2.0.jar(MD5:030ed24cb3aa205f713a5b8a87a6edbe)
+[2016-04-11 16:57:48,332]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.user.core_4.2.0.jar(MD5:b7980020a70f5e62df652026ad946dcf)
+[2016-04-11 16:57:48,343]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched tomcat-ha_7.0.34.wso2v1.jar(MD5:a9e22cd28a9d5f4535c7f9703886517a)
+[2016-04-11 16:57:48,382]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched tomcat_7.0.34.wso2v1.jar(MD5:7439f74b950c7459bb71bfe9e84ad894)
+[2016-04-11 16:57:48,429]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched wss4j_1.5.11.wso2v6.jar(MD5:690a8fd5acbea9519d8212ec9e1738ef)
+[2016-04-11 16:57:48,430]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Applying - patch0011
+[2016-04-11 16:57:48,433]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-json_1.6.1.wso2v10.jar(MD5:927635c268845b4286f66f0cdc5b84c5)
+[2016-04-11 16:57:48,436]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-transport-jms_1.1.0.wso2v9.jar(MD5:1e41a87d753469a138ab34606791e5d3)
+[2016-04-11 16:57:48,440]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched axis2-transport-rabbitmq-amqp_1.1.0.wso2v9.jar(MD5:7f712e0c6f9ff81c3c2de3ddb0ffbcb9)
+[2016-04-11 16:57:48,479]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.core_4.2.0.jar(MD5:009ca5d6af895555533e7bd7dc960e2d)
+[2016-04-11 16:57:48,497]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.registry.core_4.2.0.jar(MD5:8993d72eba43ba1623a2a060910f3b28)
+[2016-04-11 16:57:48,542]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.ui-4.2.0.jar(MD5:8cf1f5dc37c0987d1a9e411ffb7c4a2b)
+[2016-04-11 16:57:48,555]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.user.core_4.2.0.jar(MD5:99be03241132a18148fbcac6b7cefa71)
+[2016-04-11 16:57:48,562]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patched org.wso2.carbon.utils_4.2.0.jar(MD5:b34442b720da2c1d7f8e9393d21b8cc7)
+[2016-04-11 16:57:48,562]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification started
+[2016-04-11 16:57:49,210]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification successfully completed
+[2016-04-11 17:44:23,858]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Checking for patch changes ...
+[2016-04-11 17:44:23,864]  INFO {org.wso2.carbon.server.util.PatchUtils} -  No new patch or service pack detected, server will start without applying patches 
+[2016-04-11 17:44:24,767]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification started
+[2016-04-11 17:44:25,218]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification successfully completed
+[2016-04-11 17:56:44,996]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Checking for patch changes ...
+[2016-04-11 17:56:45,002]  INFO {org.wso2.carbon.server.util.PatchUtils} -  No new patch or service pack detected, server will start without applying patches 
+[2016-04-11 17:56:45,881]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification started
+[2016-04-11 17:56:46,247]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification successfully completed
+[2016-04-12 15:10:48,619]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Checking for patch changes ...
+[2016-04-12 15:10:48,627]  INFO {org.wso2.carbon.server.util.PatchUtils} -  No new patch or service pack detected, server will start without applying patches 
+[2016-04-12 15:10:49,529]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification started
+[2016-04-12 15:10:49,988]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification successfully completed
+[2016-04-12 17:03:23,036]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Checking for patch changes ...
+[2016-04-12 17:03:23,041]  INFO {org.wso2.carbon.server.util.PatchUtils} -  No new patch or service pack detected, server will start without applying patches 
+[2016-04-12 17:03:24,230]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification started
+[2016-04-12 17:03:24,756]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification successfully completed

@@ -1,0 +1,1099 @@
+2016-04-11 17:03:30,874 - Log4JLogChute initialized using file 'velocity.log'
+2016-04-11 17:03:30,874 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2016-04-11 17:03:30,874 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2016-04-11 17:03:30,874 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2016-04-11 17:03:30,875 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:116)
+	at org.wso2.carbon.apimgt.impl.template.APITemplateBuilderImpl.getConfigStringForTemplate(APITemplateBuilderImpl.java:97)
+	at org.wso2.carbon.apimgt.impl.utils.RESTAPIAdminClient.addApi(RESTAPIAdminClient.java:53)
+	at org.wso2.carbon.apimgt.impl.APIGatewayManager.publishToGateway(APIGatewayManager.java:169)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.publishToGateway(APIProviderImpl.java:944)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.changeAPIStatus(APIProviderImpl.java:825)
+	at org.wso2.carbon.apimgt.impl.UserAwareAPIProvider.changeAPIStatus(UserAwareAPIProvider.java:84)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.jsFunction_updateAPIStatus(APIProviderHostObject.java:1884)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.modules.api.c4._c_anonymous_1(/publisher/modules/api/life-cycles.jag:6)
+	at org.jaggeryjs.rhino.publisher.modules.api.c4.call(/publisher/modules/api/life-cycles.jag)
+	at org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2430)
+	at org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)
+	at org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)
+	at org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0._c_anonymous_11(/publisher/modules/api/module.jag:41)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0.call(/publisher/modules/api/module.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.site.blocks.life_cycles.ajax.c0._c_anonymous_1(/publisher/site/blocks/life-cycles/ajax/life-cycles.jag:27)
+	at org.jaggeryjs.rhino.publisher.site.blocks.life_cycles.ajax.c0.call(/publisher/site/blocks/life-cycles/ajax/life-cycles.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call0(OptRuntime.java:23)
+	at org.jaggeryjs.rhino.publisher.site.blocks.life_cycles.ajax.c0._c_script_0(/publisher/site/blocks/life-cycles/ajax/life-cycles.jag:4)
+	at org.jaggeryjs.rhino.publisher.site.blocks.life_cycles.ajax.c0.call(/publisher/site/blocks/life-cycles/ajax/life-cycles.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.publisher.site.blocks.life_cycles.ajax.c0.call(/publisher/site/blocks/life-cycles/ajax/life-cycles.jag)
+	at org.jaggeryjs.rhino.publisher.site.blocks.life_cycles.ajax.c0.exec(/publisher/site/blocks/life-cycles/ajax/life-cycles.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:567)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:273)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:541)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doPost(JaggeryServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:378)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:178)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonTomcatValve$1.invoke(CarbonTomcatValve.java:47)
+	at org.wso2.carbon.webapp.mgt.TenantLazyLoaderValve.invoke(TenantLazyLoaderValve.java:56)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:47)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:141)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1695)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 79 more
+2016-04-11 17:03:30,876 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:03:30,876 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:03:30,879 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2016-04-11 17:03:30,886 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:03:30,887 - Do unicode file recognition:  false
+2016-04-11 17:03:30,888 - FileResourceLoader : adding path '.'
+2016-04-11 17:03:30,917 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2016-04-11 17:03:30,919 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2016-04-11 17:03:30,920 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2016-04-11 17:03:30,922 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2016-04-11 17:03:30,924 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2016-04-11 17:03:30,926 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2016-04-11 17:03:30,958 - Created '20' parsers.
+2016-04-11 17:03:30,962 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2016-04-11 17:03:30,963 - Velocimacro : Default library not found.
+2016-04-11 17:03:30,963 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2016-04-11 17:03:30,963 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2016-04-11 17:03:30,963 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2016-04-11 17:03:30,963 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2016-04-11 17:03:30,978 - Velocimacro : added #print_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:03:30,979 - Velocimacro : added #print_string_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:03:30,980 - Velocimacro : added #print_if_exist_only(  tagname field ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:03:30,990 - Velocimacro : added #print_list(  tagname list ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:03:30,997 - Velocimacro : added #timeout(  config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:03:30,998 - Velocimacro : added #http_endpoint(  name ep ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:03:31,013 - Velocimacro : added #draw_endpoint(  type endpoint_config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:03:31,105 - ResourceManager : found repository/resources/api_templates/velocity_template.xml with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:03:31,125 - Null reference [template 'repository/resources/api_templates/velocity_template.xml', line 243, column 17] : $ctx cannot be resolved.
+2016-04-11 17:03:31,131 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:03:31,131 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:03:31,149 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:03:31,157 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:03:31,157 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:03:31,178 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:12:31,695 - Log4JLogChute initialized using file 'velocity.log'
+2016-04-11 17:12:31,704 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2016-04-11 17:12:31,704 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2016-04-11 17:12:31,704 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2016-04-11 17:12:31,704 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:116)
+	at org.wso2.carbon.apimgt.impl.template.APITemplateBuilderImpl.getConfigStringForTemplate(APITemplateBuilderImpl.java:97)
+	at org.wso2.carbon.apimgt.impl.utils.RESTAPIAdminClient.updateApi(RESTAPIAdminClient.java:144)
+	at org.wso2.carbon.apimgt.impl.APIGatewayManager.publishToGateway(APIGatewayManager.java:126)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.publishToGateway(APIProviderImpl.java:944)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.updateAPI(APIProviderImpl.java:579)
+	at org.wso2.carbon.apimgt.impl.UserAwareAPIProvider.manageAPI(UserAwareAPIProvider.java:71)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.saveAPI(APIProviderHostObject.java:902)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.jsFunction_updateAPIDesign(APIProviderHostObject.java:733)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3._c_anonymous_6(/publisher/modules/api/add.jag:125)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3.call(/publisher/modules/api/add.jag)
+	at org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2430)
+	at org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)
+	at org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)
+	at org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0._c_anonymous_31(/publisher/modules/api/module.jag:101)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0.call(/publisher/modules/api/module.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_anonymous_1(/publisher/site/blocks/item-design/ajax/add.jag:123)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call0(OptRuntime.java:23)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_script_0(/publisher/site/blocks/item-design/ajax/add.jag:5)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.exec(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:567)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:273)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:541)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doPost(JaggeryServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:378)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:178)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonTomcatValve$1.invoke(CarbonTomcatValve.java:47)
+	at org.wso2.carbon.webapp.mgt.TenantLazyLoaderValve.invoke(TenantLazyLoaderValve.java:56)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:47)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:141)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1695)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 80 more
+2016-04-11 17:12:31,708 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:12:31,708 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:12:31,708 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2016-04-11 17:12:31,708 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:12:31,709 - Do unicode file recognition:  false
+2016-04-11 17:12:31,709 - FileResourceLoader : adding path '.'
+2016-04-11 17:12:31,709 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2016-04-11 17:12:31,709 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2016-04-11 17:12:31,709 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2016-04-11 17:12:31,709 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2016-04-11 17:12:31,709 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2016-04-11 17:12:31,709 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2016-04-11 17:12:31,713 - Created '20' parsers.
+2016-04-11 17:12:31,713 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2016-04-11 17:12:31,713 - Velocimacro : Default library not found.
+2016-04-11 17:12:31,713 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2016-04-11 17:12:31,713 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2016-04-11 17:12:31,713 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2016-04-11 17:12:31,713 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2016-04-11 17:12:31,714 - Velocimacro : added #print_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:31,715 - Velocimacro : added #print_string_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:31,715 - Velocimacro : added #print_if_exist_only(  tagname field ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:31,716 - Velocimacro : added #print_list(  tagname list ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:31,718 - Velocimacro : added #timeout(  config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:31,720 - Velocimacro : added #http_endpoint(  name ep ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:31,727 - Velocimacro : added #draw_endpoint(  type endpoint_config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:31,790 - ResourceManager : found repository/resources/api_templates/velocity_template.xml with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:12:31,792 - Null reference [template 'repository/resources/api_templates/velocity_template.xml', line 243, column 17] : $ctx cannot be resolved.
+2016-04-11 17:12:31,796 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:31,796 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:31,821 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:12:31,829 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:31,829 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:31,858 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:12:40,528 - Log4JLogChute initialized using file 'velocity.log'
+2016-04-11 17:12:40,528 - Log4JLogChute initialized using file 'velocity.log'
+2016-04-11 17:12:40,534 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2016-04-11 17:12:40,534 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2016-04-11 17:12:40,534 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2016-04-11 17:12:40,534 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2016-04-11 17:12:40,534 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2016-04-11 17:12:40,534 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2016-04-11 17:12:40,534 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:116)
+	at org.wso2.carbon.apimgt.impl.template.APITemplateBuilderImpl.getConfigStringForTemplate(APITemplateBuilderImpl.java:97)
+	at org.wso2.carbon.apimgt.impl.utils.RESTAPIAdminClient.updateApi(RESTAPIAdminClient.java:144)
+	at org.wso2.carbon.apimgt.impl.APIGatewayManager.publishToGateway(APIGatewayManager.java:126)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.publishToGateway(APIProviderImpl.java:944)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.updateAPI(APIProviderImpl.java:579)
+	at org.wso2.carbon.apimgt.impl.UserAwareAPIProvider.manageAPI(UserAwareAPIProvider.java:71)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.saveAPI(APIProviderHostObject.java:902)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.jsFunction_updateAPIImplementation(APIProviderHostObject.java:613)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3._c_anonymous_3(/publisher/modules/api/add.jag:56)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3.call(/publisher/modules/api/add.jag)
+	at org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2430)
+	at org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)
+	at org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)
+	at org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0._c_anonymous_33(/publisher/modules/api/module.jag:107)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0.call(/publisher/modules/api/module.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_anonymous_1(/publisher/site/blocks/item-design/ajax/add.jag:161)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call0(OptRuntime.java:23)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_script_0(/publisher/site/blocks/item-design/ajax/add.jag:5)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.exec(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:567)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:273)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:541)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doPost(JaggeryServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:378)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:178)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonTomcatValve$1.invoke(CarbonTomcatValve.java:47)
+	at org.wso2.carbon.webapp.mgt.TenantLazyLoaderValve.invoke(TenantLazyLoaderValve.java:56)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:47)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:141)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1695)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 80 more
+2016-04-11 17:12:40,534 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:116)
+	at org.wso2.carbon.apimgt.impl.template.APITemplateBuilderImpl.getConfigStringForTemplate(APITemplateBuilderImpl.java:97)
+	at org.wso2.carbon.apimgt.impl.utils.RESTAPIAdminClient.updateApi(RESTAPIAdminClient.java:144)
+	at org.wso2.carbon.apimgt.impl.APIGatewayManager.publishToGateway(APIGatewayManager.java:126)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.publishToGateway(APIProviderImpl.java:944)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.updateAPI(APIProviderImpl.java:579)
+	at org.wso2.carbon.apimgt.impl.UserAwareAPIProvider.manageAPI(UserAwareAPIProvider.java:71)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.saveAPI(APIProviderHostObject.java:902)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.jsFunction_updateAPIImplementation(APIProviderHostObject.java:613)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3._c_anonymous_3(/publisher/modules/api/add.jag:56)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3.call(/publisher/modules/api/add.jag)
+	at org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2430)
+	at org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)
+	at org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)
+	at org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0._c_anonymous_33(/publisher/modules/api/module.jag:107)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0.call(/publisher/modules/api/module.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_anonymous_1(/publisher/site/blocks/item-design/ajax/add.jag:161)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call0(OptRuntime.java:23)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_script_0(/publisher/site/blocks/item-design/ajax/add.jag:5)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.exec(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:567)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:273)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:541)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doPost(JaggeryServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:378)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:178)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonTomcatValve$1.invoke(CarbonTomcatValve.java:47)
+	at org.wso2.carbon.webapp.mgt.TenantLazyLoaderValve.invoke(TenantLazyLoaderValve.java:56)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:47)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:141)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1695)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 80 more
+2016-04-11 17:12:40,536 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:12:40,536 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:12:40,536 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:12:40,536 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:12:40,536 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2016-04-11 17:12:40,536 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2016-04-11 17:12:40,536 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:12:40,536 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:12:40,537 - Do unicode file recognition:  false
+2016-04-11 17:12:40,537 - Do unicode file recognition:  false
+2016-04-11 17:12:40,537 - FileResourceLoader : adding path '.'
+2016-04-11 17:12:40,537 - FileResourceLoader : adding path '.'
+2016-04-11 17:12:40,537 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2016-04-11 17:12:40,537 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2016-04-11 17:12:40,537 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2016-04-11 17:12:40,537 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2016-04-11 17:12:40,537 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2016-04-11 17:12:40,537 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2016-04-11 17:12:40,537 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2016-04-11 17:12:40,537 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2016-04-11 17:12:40,537 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2016-04-11 17:12:40,537 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2016-04-11 17:12:40,537 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2016-04-11 17:12:40,537 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2016-04-11 17:12:40,538 - Created '20' parsers.
+2016-04-11 17:12:40,538 - Created '20' parsers.
+2016-04-11 17:12:40,539 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2016-04-11 17:12:40,539 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2016-04-11 17:12:40,539 - Velocimacro : Default library not found.
+2016-04-11 17:12:40,539 - Velocimacro : Default library not found.
+2016-04-11 17:12:40,539 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2016-04-11 17:12:40,539 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2016-04-11 17:12:40,539 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2016-04-11 17:12:40,539 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2016-04-11 17:12:40,539 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2016-04-11 17:12:40,539 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2016-04-11 17:12:40,539 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2016-04-11 17:12:40,539 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2016-04-11 17:12:40,540 - Velocimacro : added #print_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,540 - Velocimacro : added #print_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,540 - Velocimacro : added #print_string_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,540 - Velocimacro : added #print_string_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,541 - Velocimacro : added #print_if_exist_only(  tagname field ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,541 - Velocimacro : added #print_if_exist_only(  tagname field ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,541 - Velocimacro : added #print_list(  tagname list ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,541 - Velocimacro : added #print_list(  tagname list ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,543 - Velocimacro : added #timeout(  config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,543 - Velocimacro : added #timeout(  config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,544 - Velocimacro : added #http_endpoint(  name ep ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,544 - Velocimacro : added #http_endpoint(  name ep ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,548 - Velocimacro : added #draw_endpoint(  type endpoint_config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,548 - Velocimacro : added #draw_endpoint(  type endpoint_config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:40,661 - ResourceManager : found repository/resources/api_templates/velocity_template.xml with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:12:40,663 - Null reference [template 'repository/resources/api_templates/velocity_template.xml', line 243, column 17] : $ctx cannot be resolved.
+2016-04-11 17:12:40,665 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:40,666 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:40,676 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:12:40,681 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:40,681 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:40,695 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:12:51,773 - Log4JLogChute initialized using file 'velocity.log'
+2016-04-11 17:12:51,773 - Log4JLogChute initialized using file 'velocity.log'
+2016-04-11 17:12:51,774 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2016-04-11 17:12:51,774 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2016-04-11 17:12:51,774 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2016-04-11 17:12:51,774 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2016-04-11 17:12:51,774 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2016-04-11 17:12:51,774 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2016-04-11 17:12:51,774 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:116)
+	at org.wso2.carbon.apimgt.impl.template.APITemplateBuilderImpl.getConfigStringForTemplate(APITemplateBuilderImpl.java:97)
+	at org.wso2.carbon.apimgt.impl.utils.RESTAPIAdminClient.updateApi(RESTAPIAdminClient.java:144)
+	at org.wso2.carbon.apimgt.impl.APIGatewayManager.publishToGateway(APIGatewayManager.java:126)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.publishToGateway(APIProviderImpl.java:944)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.updateAPI(APIProviderImpl.java:579)
+	at org.wso2.carbon.apimgt.impl.UserAwareAPIProvider.manageAPI(UserAwareAPIProvider.java:71)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.saveAPI(APIProviderHostObject.java:902)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.jsFunction_manageAPI(APIProviderHostObject.java:503)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3._c_anonymous_1(/publisher/modules/api/add.jag:7)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3.call(/publisher/modules/api/add.jag)
+	at org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2430)
+	at org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)
+	at org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)
+	at org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0._c_anonymous_34(/publisher/modules/api/module.jag:110)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0.call(/publisher/modules/api/module.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_anonymous_1(/publisher/site/blocks/item-design/ajax/add.jag:219)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call0(OptRuntime.java:23)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_script_0(/publisher/site/blocks/item-design/ajax/add.jag:5)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.exec(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:567)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:273)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:541)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doPost(JaggeryServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:378)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:178)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonTomcatValve$1.invoke(CarbonTomcatValve.java:47)
+	at org.wso2.carbon.webapp.mgt.TenantLazyLoaderValve.invoke(TenantLazyLoaderValve.java:56)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:47)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:141)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1695)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 80 more
+2016-04-11 17:12:51,774 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:116)
+	at org.wso2.carbon.apimgt.impl.template.APITemplateBuilderImpl.getConfigStringForTemplate(APITemplateBuilderImpl.java:97)
+	at org.wso2.carbon.apimgt.impl.utils.RESTAPIAdminClient.updateApi(RESTAPIAdminClient.java:144)
+	at org.wso2.carbon.apimgt.impl.APIGatewayManager.publishToGateway(APIGatewayManager.java:126)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.publishToGateway(APIProviderImpl.java:944)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.updateAPI(APIProviderImpl.java:579)
+	at org.wso2.carbon.apimgt.impl.UserAwareAPIProvider.manageAPI(UserAwareAPIProvider.java:71)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.saveAPI(APIProviderHostObject.java:902)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.jsFunction_manageAPI(APIProviderHostObject.java:503)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3._c_anonymous_1(/publisher/modules/api/add.jag:7)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3.call(/publisher/modules/api/add.jag)
+	at org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2430)
+	at org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)
+	at org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)
+	at org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0._c_anonymous_34(/publisher/modules/api/module.jag:110)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0.call(/publisher/modules/api/module.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_anonymous_1(/publisher/site/blocks/item-design/ajax/add.jag:219)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call0(OptRuntime.java:23)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_script_0(/publisher/site/blocks/item-design/ajax/add.jag:5)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.exec(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:567)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:273)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:541)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doPost(JaggeryServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:378)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:178)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonTomcatValve$1.invoke(CarbonTomcatValve.java:47)
+	at org.wso2.carbon.webapp.mgt.TenantLazyLoaderValve.invoke(TenantLazyLoaderValve.java:56)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:47)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:141)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1695)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 80 more
+2016-04-11 17:12:51,775 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:12:51,775 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:12:51,775 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:12:51,775 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:12:51,775 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2016-04-11 17:12:51,775 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2016-04-11 17:12:51,775 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:12:51,775 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:12:51,775 - Do unicode file recognition:  false
+2016-04-11 17:12:51,775 - Do unicode file recognition:  false
+2016-04-11 17:12:51,775 - FileResourceLoader : adding path '.'
+2016-04-11 17:12:51,775 - FileResourceLoader : adding path '.'
+2016-04-11 17:12:51,775 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2016-04-11 17:12:51,775 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2016-04-11 17:12:51,775 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2016-04-11 17:12:51,775 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2016-04-11 17:12:51,776 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2016-04-11 17:12:51,776 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2016-04-11 17:12:51,776 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2016-04-11 17:12:51,776 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2016-04-11 17:12:51,776 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2016-04-11 17:12:51,776 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2016-04-11 17:12:51,776 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2016-04-11 17:12:51,776 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2016-04-11 17:12:51,776 - Created '20' parsers.
+2016-04-11 17:12:51,776 - Created '20' parsers.
+2016-04-11 17:12:51,776 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2016-04-11 17:12:51,776 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2016-04-11 17:12:51,777 - Velocimacro : Default library not found.
+2016-04-11 17:12:51,777 - Velocimacro : Default library not found.
+2016-04-11 17:12:51,777 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2016-04-11 17:12:51,777 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2016-04-11 17:12:51,777 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2016-04-11 17:12:51,777 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2016-04-11 17:12:51,777 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2016-04-11 17:12:51,777 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2016-04-11 17:12:51,777 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2016-04-11 17:12:51,777 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2016-04-11 17:12:51,778 - Velocimacro : added #print_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,778 - Velocimacro : added #print_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,778 - Velocimacro : added #print_string_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,778 - Velocimacro : added #print_string_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,778 - Velocimacro : added #print_if_exist_only(  tagname field ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,778 - Velocimacro : added #print_if_exist_only(  tagname field ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,778 - Velocimacro : added #print_list(  tagname list ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,778 - Velocimacro : added #print_list(  tagname list ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,780 - Velocimacro : added #timeout(  config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,780 - Velocimacro : added #timeout(  config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,780 - Velocimacro : added #http_endpoint(  name ep ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,780 - Velocimacro : added #http_endpoint(  name ep ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,785 - Velocimacro : added #draw_endpoint(  type endpoint_config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,785 - Velocimacro : added #draw_endpoint(  type endpoint_config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:12:51,808 - ResourceManager : found repository/resources/api_templates/velocity_template.xml with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:12:51,808 - ResourceManager : found repository/resources/api_templates/velocity_template.xml with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:12:51,810 - Null reference [template 'repository/resources/api_templates/velocity_template.xml', line 243, column 17] : $ctx cannot be resolved.
+2016-04-11 17:12:51,810 - Null reference [template 'repository/resources/api_templates/velocity_template.xml', line 243, column 17] : $ctx cannot be resolved.
+2016-04-11 17:12:51,812 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:51,812 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:51,812 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:51,812 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:51,819 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:12:51,819 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:12:51,823 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:51,823 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:51,823 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:51,823 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:12:51,831 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:12:51,831 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:29:32,689 - Log4JLogChute initialized using file 'velocity.log'
+2016-04-11 17:29:32,696 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2016-04-11 17:29:32,696 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2016-04-11 17:29:32,696 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2016-04-11 17:29:32,696 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:116)
+	at org.wso2.carbon.apimgt.impl.template.APITemplateBuilderImpl.getConfigStringForTemplate(APITemplateBuilderImpl.java:97)
+	at org.wso2.carbon.apimgt.impl.utils.RESTAPIAdminClient.addApi(RESTAPIAdminClient.java:53)
+	at org.wso2.carbon.apimgt.impl.APIGatewayManager.publishToGateway(APIGatewayManager.java:169)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.publishToGateway(APIProviderImpl.java:944)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.changeAPIStatus(APIProviderImpl.java:825)
+	at org.wso2.carbon.apimgt.impl.UserAwareAPIProvider.changeAPIStatus(UserAwareAPIProvider.java:84)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.jsFunction_updateAPIStatus(APIProviderHostObject.java:1884)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.modules.api.c4._c_anonymous_1(/publisher/modules/api/life-cycles.jag:6)
+	at org.jaggeryjs.rhino.publisher.modules.api.c4.call(/publisher/modules/api/life-cycles.jag)
+	at org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2430)
+	at org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)
+	at org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)
+	at org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0._c_anonymous_11(/publisher/modules/api/module.jag:41)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0.call(/publisher/modules/api/module.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.site.blocks.life_cycles.ajax.c0._c_anonymous_1(/publisher/site/blocks/life-cycles/ajax/life-cycles.jag:27)
+	at org.jaggeryjs.rhino.publisher.site.blocks.life_cycles.ajax.c0.call(/publisher/site/blocks/life-cycles/ajax/life-cycles.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call0(OptRuntime.java:23)
+	at org.jaggeryjs.rhino.publisher.site.blocks.life_cycles.ajax.c0._c_script_0(/publisher/site/blocks/life-cycles/ajax/life-cycles.jag:4)
+	at org.jaggeryjs.rhino.publisher.site.blocks.life_cycles.ajax.c0.call(/publisher/site/blocks/life-cycles/ajax/life-cycles.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.publisher.site.blocks.life_cycles.ajax.c0.call(/publisher/site/blocks/life-cycles/ajax/life-cycles.jag)
+	at org.jaggeryjs.rhino.publisher.site.blocks.life_cycles.ajax.c0.exec(/publisher/site/blocks/life-cycles/ajax/life-cycles.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:567)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:273)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:541)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doPost(JaggeryServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:378)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:178)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonTomcatValve$1.invoke(CarbonTomcatValve.java:47)
+	at org.wso2.carbon.webapp.mgt.TenantLazyLoaderValve.invoke(TenantLazyLoaderValve.java:56)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:47)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:141)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1695)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 79 more
+2016-04-11 17:29:32,698 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:29:32,698 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:29:32,698 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2016-04-11 17:29:32,698 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:29:32,699 - Do unicode file recognition:  false
+2016-04-11 17:29:32,699 - FileResourceLoader : adding path '.'
+2016-04-11 17:29:32,699 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2016-04-11 17:29:32,699 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2016-04-11 17:29:32,699 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2016-04-11 17:29:32,699 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2016-04-11 17:29:32,699 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2016-04-11 17:29:32,699 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2016-04-11 17:29:32,701 - Created '20' parsers.
+2016-04-11 17:29:32,701 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2016-04-11 17:29:32,701 - Velocimacro : Default library not found.
+2016-04-11 17:29:32,701 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2016-04-11 17:29:32,701 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2016-04-11 17:29:32,701 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2016-04-11 17:29:32,701 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2016-04-11 17:29:32,703 - Velocimacro : added #print_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:29:32,703 - Velocimacro : added #print_string_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:29:32,703 - Velocimacro : added #print_if_exist_only(  tagname field ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:29:32,704 - Velocimacro : added #print_list(  tagname list ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:29:32,705 - Velocimacro : added #timeout(  config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:29:32,706 - Velocimacro : added #http_endpoint(  name ep ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:29:32,710 - Velocimacro : added #draw_endpoint(  type endpoint_config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:29:32,735 - ResourceManager : found repository/resources/api_templates/velocity_template.xml with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:29:32,737 - Null reference [template 'repository/resources/api_templates/velocity_template.xml', line 243, column 17] : $ctx cannot be resolved.
+2016-04-11 17:29:32,740 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:29:32,740 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:29:32,751 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:29:32,755 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:29:32,756 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:29:32,764 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:35:21,824 - Log4JLogChute initialized using file 'velocity.log'
+2016-04-11 17:35:21,824 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2016-04-11 17:35:21,824 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2016-04-11 17:35:21,824 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2016-04-11 17:35:21,824 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:116)
+	at org.wso2.carbon.apimgt.impl.template.APITemplateBuilderImpl.getConfigStringForTemplate(APITemplateBuilderImpl.java:97)
+	at org.wso2.carbon.apimgt.impl.utils.RESTAPIAdminClient.updateApi(RESTAPIAdminClient.java:144)
+	at org.wso2.carbon.apimgt.impl.APIGatewayManager.publishToGateway(APIGatewayManager.java:126)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.publishToGateway(APIProviderImpl.java:944)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.updateAPI(APIProviderImpl.java:579)
+	at org.wso2.carbon.apimgt.impl.UserAwareAPIProvider.manageAPI(UserAwareAPIProvider.java:71)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.saveAPI(APIProviderHostObject.java:902)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.jsFunction_updateAPIDesign(APIProviderHostObject.java:733)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3._c_anonymous_6(/publisher/modules/api/add.jag:125)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3.call(/publisher/modules/api/add.jag)
+	at org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2430)
+	at org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)
+	at org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)
+	at org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0._c_anonymous_31(/publisher/modules/api/module.jag:101)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0.call(/publisher/modules/api/module.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_anonymous_1(/publisher/site/blocks/item-design/ajax/add.jag:123)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call0(OptRuntime.java:23)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_script_0(/publisher/site/blocks/item-design/ajax/add.jag:5)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.exec(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:567)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:273)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:541)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doPost(JaggeryServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:378)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:178)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonTomcatValve$1.invoke(CarbonTomcatValve.java:47)
+	at org.wso2.carbon.webapp.mgt.TenantLazyLoaderValve.invoke(TenantLazyLoaderValve.java:56)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:47)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:141)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1695)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 80 more
+2016-04-11 17:35:21,827 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:35:21,827 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2016-04-11 17:35:21,827 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2016-04-11 17:35:21,831 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:35:21,831 - Do unicode file recognition:  false
+2016-04-11 17:35:21,831 - FileResourceLoader : adding path '.'
+2016-04-11 17:35:21,831 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2016-04-11 17:35:21,831 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2016-04-11 17:35:21,831 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2016-04-11 17:35:21,831 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2016-04-11 17:35:21,831 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2016-04-11 17:35:21,831 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2016-04-11 17:35:21,874 - Created '20' parsers.
+2016-04-11 17:35:21,874 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2016-04-11 17:35:21,874 - Velocimacro : Default library not found.
+2016-04-11 17:35:21,874 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2016-04-11 17:35:21,874 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2016-04-11 17:35:21,874 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2016-04-11 17:35:21,875 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2016-04-11 17:35:21,876 - Velocimacro : added #print_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:35:21,876 - Velocimacro : added #print_string_if_exist(  field default ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:35:21,877 - Velocimacro : added #print_if_exist_only(  tagname field ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:35:21,877 - Velocimacro : added #print_list(  tagname list ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:35:21,878 - Velocimacro : added #timeout(  config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:35:21,878 - Velocimacro : added #http_endpoint(  name ep ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:35:21,881 - Velocimacro : added #draw_endpoint(  type endpoint_config ) : source = repository/resources/api_templates/velocity_template.xml
+2016-04-11 17:35:21,903 - ResourceManager : found repository/resources/api_templates/velocity_template.xml with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-04-11 17:35:21,905 - Null reference [template 'repository/resources/api_templates/velocity_template.xml', line 243, column 17] : $ctx cannot be resolved.
+2016-04-11 17:35:21,906 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:35:21,906 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:35:21,913 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:35:21,915 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:35:21,915 - VM #timeout: error : too few arguments to macro. Wanted 1 got 0
+2016-04-11 17:35:21,922 - Left side ($config.get("actionSelect")) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. repository/resources/api_templates/velocity_template.xml [line 1, column 44]
+2016-04-11 17:35:35,480 - Log4JLogChute initialized using file 'velocity.log'
+2016-04-11 17:35:35,481 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2016-04-11 17:35:35,481 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2016-04-11 17:35:35,481 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2016-04-11 17:35:35,481 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:116)
+	at org.wso2.carbon.apimgt.impl.template.APITemplateBuilderImpl.getConfigStringForTemplate(APITemplateBuilderImpl.java:97)
+	at org.wso2.carbon.apimgt.impl.utils.RESTAPIAdminClient.updateApi(RESTAPIAdminClient.java:144)
+	at org.wso2.carbon.apimgt.impl.APIGatewayManager.publishToGateway(APIGatewayManager.java:126)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.publishToGateway(APIProviderImpl.java:944)
+	at org.wso2.carbon.apimgt.impl.APIProviderImpl.updateAPI(APIProviderImpl.java:579)
+	at org.wso2.carbon.apimgt.impl.UserAwareAPIProvider.manageAPI(UserAwareAPIProvider.java:71)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.saveAPI(APIProviderHostObject.java:902)
+	at org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject.jsFunction_updateAPIImplementation(APIProviderHostObject.java:613)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3._c_anonymous_3(/publisher/modules/api/add.jag:56)
+	at org.jaggeryjs.rhino.publisher.modules.api.c3.call(/publisher/modules/api/add.jag)
+	at org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2430)
+	at org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)
+	at org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)
+	at org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0._c_anonymous_33(/publisher/modules/api/module.jag:107)
+	at org.jaggeryjs.rhino.publisher.modules.api.c0.call(/publisher/modules/api/module.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_anonymous_1(/publisher/site/blocks/item-design/ajax/add.jag:161)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call0(OptRuntime.java:23)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0._c_script_0(/publisher/site/blocks/item-design/ajax/add.jag:5)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.call(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.rhino.publisher.site.blocks.item_design.ajax.c0.exec(/publisher/site/blocks/item-design/ajax/add.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:567)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:273)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:541)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doPost(JaggeryServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:378)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:178)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonTomcatValve$1.invoke(CarbonTomcatValve.java:47)
+	at org.wso2.carbon.webapp.mgt.TenantLazyLoaderValve.invoke(TenantLazyLoaderValve.java:56)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:47)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:141)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1695)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 80 more

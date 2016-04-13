@@ -1,0 +1,32 @@
+TID: [0] [AM] [2016-04-13 14:17:35,098]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [AM] [2016-04-13 14:17:35,101]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 API Manager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [AM] [2016-04-13 14:17:35,110]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [AM] [2016-04-13 14:17:35,112]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Stopping Pass-through HTTPS Listener.. {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [0] [AM] [2016-04-13 14:17:35,122]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Stopping Pass-through HTTP Listener.. {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [0] [AM] [2016-04-13 14:17:35,122]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  HTTPS Listener shutdown. {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [0] [AM] [2016-04-13 14:17:35,126]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  HTTP Listener shutdown. {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [0] [AM] [2016-04-13 14:17:35,126]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [0] [AM] [2016-04-13 14:17:35,127]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [AM] [2016-04-13 14:17:35,145]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [AM] [2016-04-13 14:17:35,145]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [AM] [2016-04-13 14:17:35,348]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [AM] [2016-04-13 14:17:35,398]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [AM] [2016-04-13 14:17:35,457]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [AM] [2016-04-13 14:17:35,526]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/admin-dashboard] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [AM] [2016-04-13 14:17:35,580]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/workflow-admin] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [AM] [2016-04-13 14:17:35,607]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/publisher] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [AM] [2016-04-13 14:17:35,614]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [AM] [2016-04-13 14:17:35,616]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [AM] [2016-04-13 14:17:35,666]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [AM] [2016-04-13 14:17:35,668]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 API Manager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [AM] [2016-04-13 14:17:35,678]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [AM] [2016-04-13 14:17:35,950]  INFO {org.apache.synapse.task.SynapseTaskManager} -  Shutting down the task manager {org.apache.synapse.task.SynapseTaskManager}
+TID: [0] [AM] [2016-04-13 14:17:38,187]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [AM] [2016-04-13 14:17:38,208]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  HTTPS Sender shutdown {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [0] [AM] [2016-04-13 14:17:38,210]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  HTTP Sender shutdown {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [0] [AM] [2016-04-13 14:17:38,210]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Destroying PassThroughHttpListener {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [0] [AM] [2016-04-13 14:17:38,212]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Destroying PassThroughHttpListener {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [0] [AM] [2016-04-13 14:17:38,465]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : / {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [0] [AM] [2016-04-13 14:17:38,662]  INFO {org.wso2.carbon.identity.application.mgt.ui.internal.ApplicationMgtUIServiceComponent} -  Application Management UI bundle is deactivated {org.wso2.carbon.identity.application.mgt.ui.internal.ApplicationMgtUIServiceComponent}
+TID: [0] [AM] [2016-04-13 14:17:39,515]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [AM] [2016-04-13 14:17:39,515]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}

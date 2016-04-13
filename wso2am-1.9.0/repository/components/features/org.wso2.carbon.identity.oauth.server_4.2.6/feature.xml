@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.oauth.server" label="Identity OAuth Server Feature" provider-name="%providerName" version="4.2.6">
+  <description>This feature contains the core bundles required for Back-end OAuth functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="java-property-utils" unpack="false" version="1.9.0.wso2v1"/>
+  <plugin id="guava" unpack="false" version="12.0.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.identity.oauth" unpack="false" version="4.2.6"/>
+  <plugin id="gdata-core" unpack="false" version="1.47.0.wso2v1"/>
+  <plugin id="cors-filter" unpack="false" version="1.7.0.wso2v1"/>
+  <require>
+    <import feature="org.wso2.carbon.idp.mgt" match="equivalent" version="4.2.1"/>
+    <import feature="org.wso2.carbon.jaxws.webapp.mgt.server" match="equivalent" version="4.2.0"/>
+    <import feature="org.wso2.carbon.identity.oauth.common" match="equivalent" version="4.2.6"/>
+    <import feature="org.wso2.carbon.webapp.mgt.server" match="equivalent" version="4.2.0"/>
+    <import feature="org.wso2.carbon.identity.core.server" match="equivalent" version="4.2.6"/>
+    <import feature="org.wso2.carbon.as.runtimes.cxf" match="equivalent" version="4.2.2"/>
+  </require>
+</feature>

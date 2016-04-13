@@ -1,0 +1,49 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+WSO2 API Manager - Styles Features
+
+
+From: 'an unknown organization'
+  - avalon-framework  avalon-framework:avalon-framework:jar:4.1.3
+
+  - bcprov-jdk15  bouncycastle:bcprov-jdk15:jar:132
+
+  - servlet-api  javax.servlet:servlet-api:jar:2.4
+
+  - Log4j (http://logging.apache.org/log4j/docs/) log4j:log4j:jar:1.2.13
+
+  - logkit  logkit:logkit:jar:1.0.1
+
+  - org.apache.log4j  org.eclipse.equinox:org.apache.log4j:jar:1.2.13.v200706111418
+
+
+From: 'OSGi Alliance' (http://www.osgi.org/)
+  - OSGi R4 Compendium Bundle (http://felix.apache.org/org.osgi.compendium/) org.apache.felix:org.osgi.compendium:bundle:1.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OSGi R4 Core Bundle (http://felix.apache.org/org.osgi.core/) org.apache.felix:org.osgi.core:bundle:1.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OSGi R4 Foundation EE (http://felix.apache.org/org.osgi.foundation/) org.apache.felix:org.osgi.foundation:jar:1.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://jakarta.apache.org)
+  - Logging (http://jakarta.apache.org/commons/${pom.artifactId.substring(8)}/) commons-logging:commons-logging:jar:1.1
+    License: The Apache Software License, Version 2.0  (/LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Servlet 2.1 API (http://felix.apache.org/javax.servlet/) org.apache.felix:javax.servlet:bundle:1.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Felix Framework (http://felix.apache.org/org.apache.felix.framework/) org.apache.felix:org.apache.felix.framework:bundle:1.0.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'WSO2 Inc' (http://wso2.com)
+  - WSO2 API Manager - Styles (http://wso2.org) org.wso2.am:org.wso2.am.styles:bundle:1.9.0
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - WSO2 Carbon - Logging (http://wso2.org) org.wso2.carbon:org.wso2.carbon.logging:bundle:4.0.0
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

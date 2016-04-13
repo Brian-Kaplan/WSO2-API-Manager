@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.apimgt.core" label="WSO2 Carbon - Api management Core Feature" provider-name="%providerName" version="1.2.4">
+  <description>This feature contains the core bundles required for getting light weight API Management functionalities.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.apimgt.keymgt.client" unpack="false" version="1.2.2"/>
+  <plugin id="org.wso2.carbon.apimgt.usage.client" unpack="false" version="1.2.4"/>
+  <plugin id="woden" unpack="false" version="1.0.0.M9-wso2v1"/>
+  <plugin id="org.wso2.carbon.identity.user.registration.stub" unpack="false" version="4.2.0"/>
+  <plugin id="org.wso2.carbon.apimgt.impl" unpack="false" version="1.2.4"/>
+  <plugin id="org.wso2.carbon.apimgt.hostobjects" unpack="false" version="1.2.4"/>
+  <plugin id="org.wso2.carbon.mediation.security.stub" unpack="false" version="4.2.0"/>
+  <plugin id="org.wso2.carbon.sequences.stub" unpack="false" version="4.2.1"/>
+  <plugin id="org.wso2.carbon.apimgt.usage.publisher" unpack="false" version="1.2.3"/>
+  <plugin id="org.wso2.carbon.apimgt.core" unpack="false" version="1.2.3"/>
+  <plugin id="org.wso2.carbon.apimgt.api" unpack="false" version="1.2.4"/>
+  <plugin id="org.wso2.carbon.apimgt.keymgt.stub" unpack="false" version="4.2.4"/>
+  <plugin id="org.wso2.carbon.apimgt.keymgt" unpack="false" version="1.2.4"/>
+  <require>
+    <import match="equivalent" plugin="libthrift" version="0.8.0.wso2v1"/>
+    <import match="equivalent" plugin="waffle-jna" version="1.6.0.wso2v2"/>
+    <import match="equivalent" plugin="org.wso2.carbon.ganalytics.publisher" version="4.2.1"/>
+    <import match="equivalent" plugin="org.wso2.carbon.bam.service.data.publisher" version="4.2.1"/>
+    <import match="equivalent" plugin="org.wso2.carbon.identity.thrift.authentication" version="4.2.1"/>
+    <import match="equivalent" plugin="org.wso2.carbon.identity.authentication" version="4.2.1"/>
+    <import feature="org.wso2.carbon.um.ws.service.server" match="equivalent" version="4.2.0"/>
+    <import feature="org.wso2.carbon.identity.oauth.server" match="equivalent" version="4.2.6"/>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.2.0"/>
+  </require>
+</feature>
