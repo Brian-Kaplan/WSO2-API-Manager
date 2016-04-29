@@ -15,27 +15,35 @@ SDK
 # Documentation
 
 Installation
-  - on Mac or Linux cd into WSO2-API-Manager/wso2am-1.9.0/bin/ and run the server ./wso2server.sh
-    - It may yell at you to set the JAVA_HOME variable, refer to [this](https://docs.wso2.com/display/APPM100/Installing+on+Linux+or+Mac+OS+X)  WSO2 Documentation
+  - You will have to download a new server instance and follow set up instructions. We've found the server to not be very "portable". I will try to walk you through everything we did to set up a server. 
+  - [Download WSO2 API Manager 1.9.0](http://wso2.com/more-downloads/api-manager/) Binary 1.9.0
+  - Follow the installation instructions [here](https://docs.wso2.com/display/AM170/Installing+the+Product)
     
   - Once the server is up the command line will show you three different server addresses
   
+      The management console
+
       Mgt Console URL  : https://localhost:9443/carbon/
       
+      The publisher to create new APIs
+
       API Publisher Default Context : http://localhost:9763/publisher
       
+      The store to view and subscribe applications to APIs
+
       API Store Default Context : http://localhost:9763/store
       
   - Log in = admin, password = admin
     - This is the only user currently created with all permissions
   
 API Store
-  - The API store currently has two instances of the same API at two slightly different endpoints
+  - After following the set up instructions for the HokieBooks and HokieDiner apps you should have the two APIs below
+  - These two instances of the same API at two slightly different endpoints
     http://localhost:8280/phoneverify/1.0.0/CheckPhoneNumber
     http://localhost:8280/phoneverify2/1.0.0/CheckPhoneNumber
   - They do the exact same thing but represent two different end points for the two Third Party Applications
-    - HokieBooks connects to phoneverify
-    - HokieDiner conncets to phoneverify2
+    - HokieBooks would connect to phoneverify
+    - HokieDiner would conncet to phoneverify2
     
 API Publisher
   - Use this interface to publish a new API
@@ -44,6 +52,8 @@ API Publisher
       
 OAuth Configurations
   - There are three Service Providers set up within this server
+  - The only one you need to set up manually is for the IDP App, instructions at that repo
+  - The other two will be set up automatically after configuring the APIs and subscribing to them
   - Each one contains its own OAuth Configuration with its own Client Key and Client Secret
   
   - Navigate to the list of service providers (Left Sidebar)
